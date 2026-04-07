@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf build/CMakeFiles cmake_install.cmake CMakeCache.txt Makefile skynet
+rm -rf build/*
 cmake --fresh -G "Unix Makefiles" -B build
 ./make.sh
